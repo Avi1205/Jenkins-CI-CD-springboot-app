@@ -75,11 +75,11 @@ For our demo ip address is : http://34.85.150.72:8080/
 
 
 **Install the Docker Pipeline plugin & Sonarqube Scanner plugin in Jenkins:**
-•	Log in to Jenkins.
-•	Go to Manage Jenkins > Manage Plugins.
-•	In the Available tab, search for "Docker Pipeline" "sonarqube scanner"
-•	Select the plugin and click the Install button.
-•	Restart Jenkins after the plugin is installed
+> Log in to Jenkins.
+> Go to Manage Jenkins > Manage Plugins.
+> In the Available tab, search for "Docker Pipeline" "sonarqube scanner"
+> Select the plugin and click the Install button.
+> Restart Jenkins after the plugin is installed
 
 ![image](https://github.com/user-attachments/assets/1921a6a0-3e28-4cf9-b5e5-706f6726b3d4)
 
