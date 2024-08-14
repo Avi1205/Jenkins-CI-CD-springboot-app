@@ -15,7 +15,7 @@ Open Putty-gen and click on Generate,   copy the key and paste in the cicd-insta
 
 Once key has been added into the cicd-instance 
 
-**Step 3: Open Putty   Session (Give external IP address ) - SSH  Auth  give the ppk file path which was stored under the location  Data  give username (gcp-demo)**
+**Step 3: Open Putty -->Session (Give external IP address ) --> SSH --> Auth --> give the ppk file path which was stored under the location --> Data --> give username (gcp-demo)**
 
 ![image](https://github.com/user-attachments/assets/bd56a6e8-94a4-4009-86ee-9e50f6388731)
 
@@ -26,11 +26,11 @@ click on Open now we are able to login with the VM via putty
 
 
 **Step 4: Install Java and jenkins  in the VM**
+ ```
  $ sudo apt-get update –y
  $ sudo apt install openjdk-17-jre
 
  ![image](https://github.com/user-attachments/assets/f39c80d8-014e-472b-b9c0-97c952f5e679)
-
 
  **Step 5:** Installing the Jenkins https://pkg.jenkins.io/debian-stable/
 
@@ -39,19 +39,20 @@ click on Open now we are able to login with the VM via putty
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
     https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
 
-**Then add a Jenkins apt repository entry:
-**
+**Then add a Jenkins apt repository entry:**
+
 echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
     https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
     /etc/apt/sources.list.d/jenkins.list > /dev/null
 
-**Update your local package index, then finally install Jenkins: 
-**
+**Update your local package index, then finally install Jenkins:**
+
 sudo apt-get update -y
 
 sudo apt-get install Jenkins
 
 Jenkins –version
+```
 
 Step 6 : Before login to Jenkins create a firewall rule  
 
