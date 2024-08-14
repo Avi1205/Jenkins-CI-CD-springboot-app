@@ -1,9 +1,8 @@
-# **JENKINS END TO END CICD Implementation**
+# **JENKINS END TO END CICD SPRING BOOT APPLICATION  Implementation**
 
 **Step 1:** **Create a compute engine VM in Google cloud platform**
 
-![image](https://github.com/user-attachments/assets/c5aeb33c-5941-4df6-b0b0-2df65f7daa8c)
-
+![image](https://github.com/user-attachments/assets/7f968675-25bb-4649-bf72-585c54e3f2b2)
 
 **Step 2:** To connect to the VM via Putty from windows , download the puttygen and putty.exe from the 
               https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
@@ -244,8 +243,8 @@ Go to the Argo cd  operator documentation
 
 **https://argocd-operator.readthedocs.io/en/latest/usage/basics/**
 
-demogcp9@cloudshell:~ (prime-hologram-432412-t7)$ kubectl get po -n operators
-NAME                                                                                                    READY   STATUS    RESTARTS   AGE
+demogcp9@cloudshell:~ (prime-hologram-432412-t7)$ **kubectl get po -n operators**
+NAME                                                     READY        STATUS         RESTARTS    AGE
 argocd-operator-controller-manager-5dfdc66f8c-nv9kt      1/1          Running          0          19m
 Go to the Argo cd  operator documentation 
 
@@ -308,6 +307,7 @@ argocd console : username : admin
 ![image](https://github.com/user-attachments/assets/83c64c02-8a88-408e-8ee7-eda7f951526e)
 
 then click create
+
 ![image](https://github.com/user-attachments/assets/97fdc265-0f70-4ecb-9303-c549cea424bc)
 
 ![image](https://github.com/user-attachments/assets/57748b2f-197b-4f7b-b6b4-848430fd76de)
@@ -319,6 +319,9 @@ Expose our application outside : http://35.245.121.80/   (EXTERNAL IP for spring
 **Successfully deployed the application** ❤
 
 ![image](https://github.com/user-attachments/assets/190a74c3-7761-442d-a511-98686e0f9b10)
+
+
+# THANK YOU 🙏❤
 
 
 
