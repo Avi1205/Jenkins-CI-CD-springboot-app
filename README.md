@@ -84,8 +84,9 @@ For our demo ip address is : http://34.85.150.72:8080/
 
 
 Wait for the Jenkins to be restarted.
-Install Docker Engine on Ubuntu
 
+**Install Docker Engine on Ubuntu**
+```  
 **Run the following command to uninstall all conflicting packages:**
 $ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 **Install using the apt repository**
@@ -106,7 +107,7 @@ $sudo apt-get update
 
 **To Install the latest version:**
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
+``` 
 
 **To check the docker version:**
 
