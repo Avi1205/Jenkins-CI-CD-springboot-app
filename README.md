@@ -1,6 +1,6 @@
-**JENKINS END TO END CICD Implementation**
+# **JENKINS END TO END CICD Implementation**
 
-**Step 1:** Create a compute engine VM in Google cloud platform
+**Step 1:** **Create a compute engine VM in Google cloud platform**
 
 ![image](https://github.com/user-attachments/assets/c5aeb33c-5941-4df6-b0b0-2df65f7daa8c)
 
@@ -175,13 +175,15 @@ manage Jenkins   credentials --> system --> Global Credentials (unrestricted)
 
 **Generate a Github token**
 
-Go to github --> click on profile --> settings  Developer settings --> personal access token --> Tokens (classic ) --> generate a new token 
+Go to github --> click on profile --> settings --> Developer settings --> personal access token --> Tokens (classic ) --> generate a new token 
 
 ![image](https://github.com/user-attachments/assets/d768842a-a6b4-4f10-a9d0-5aad8b3b30a5)
 
-Copy the generated token and go to Jenkins  manage Jenkins  credentials   system  Global Credentials (unrestricted)  Add credentials  kind select (secret text)  id github
+Copy the generated token and go to Jenkins --> manage Jenkins --> credentials  --> system --> Global Credentials (unrestricted) --> Add credentials --> kind select (secret text) --> id --> github
 
 ![image](https://github.com/user-attachments/assets/638bb1e4-9dcb-4fa1-be91-f66d46d5fa72)
+
+**CREATING A GKE CLUSTER IN GOOGLE CLOUD VIA CLI**
 
 
 
